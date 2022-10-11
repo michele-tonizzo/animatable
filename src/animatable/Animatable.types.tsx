@@ -1,7 +1,8 @@
 import { AnimeTimelineInstance } from "animejs";
+import { ReactElement } from "react";
 
 export interface IAnimatableProps {
-  children: React.ReactElement;
+  children: ReactElement;
 
   offsetTop?: number;
   offsetBottom?: number;
